@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS abonents, cities, negotiations;
 CREATE TABLE abonents(
     abonent_code CHAR(32) PRIMARY KEY,
     phone CHAR(16),
-    id BIGINT,
+    id BIGINT,  
     place VARCHAR(128)
 );
 CREATE TABLE cities(
